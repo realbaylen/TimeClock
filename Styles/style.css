@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap');
+
+body {
+    font-family: "Lexend Mega", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F8D6B3;
+}
+
+.title {
+    color: #ff4911;
+    -webkit-text-stroke: black 2px;
+    text-shadow: #00000033 2px 2px 2px;
+
+    font-family: "Lexend Mega", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+  }
+
+.button-top {
+    background-color: white;
+    box-shadow: 0px 5px 10px #00000022;
+    border: black 2px solid;
+    color: black;
+    border-radius: 4px;
+    
+    margin-left: 4px;
+    margin-right: 4px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+    font-weight: 700;
+    font-size: 17px;
+
+    transition: 500ms background-color;
+
+}
+
+.button-top:hover {
+    background-color: #ff4911;
+    cursor: pointer;
+}
+
+.timer-container {
+    box-shadow: 0px 10px 10px #00000033;
+    border: black 4px solid;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 75px;
+    background-color: white;
+}
+
+.timer-clock {
+    font-size: 400%;
+    color: black;
+}
+
+.total-container {
+    font-size: 110%;
+    box-shadow: 0px 10px 10px #00000033;
+    border: black 3px solid;
+    border-radius: 5px;
+    padding-left: 57.5px;
+    padding-right: 57.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    background-color: white; 
+}
+
+footer {
+    border-radius: 5px;
+    background-color: white; 
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 10px 10px #00000033;
+    border: black 3px solid;
+    margin-top: 17vh;
+    font-size: 80%;
+    color: black;
+    text-align: center;
+}
